@@ -1,0 +1,56 @@
+@use 'variaveis';
+@use 'reset';
+@use 'layout-images';
+
+header {
+    text-align: center;
+
+    img {
+        width: 80%;
+        max-height: 300px;
+        height: 50%;
+    }
+
+    nav {
+        padding: 16px 0;
+        width: 70%;
+        margin: 0 auto;
+        
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            & li {
+                list-style: none;
+                background-color: brown;
+                padding: 1.2em;
+                
+                & a {
+                    text-decoration: none;
+                    padding: 1.25em 3.1em;
+                    color: coral;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.h1--title {
+    text-align: center;
+    
+    & h1 {
+        font-size: variaveis.$fonteUm;
+    }
+
+    & p {
+        font-size: variaveis.$fonteParagrafo;
+    }
+}
+
+.bibliografia {
+    text-align: center;
+    font-size: variaveis.$fonteParagrafo;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "projeto_blog_linux",
+  "version": "1.0.0",
+  "description": "Esse projeto mostra um pequeno blog falando a respeito de 7 sistemas linux. link do projeto: https://rubemjdev.github.io/Projeto_Blog_Linux/",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rubemjdev/Projeto_Blog_Linux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rubemjdev/Projeto_Blog_Linux/issues"
+  },
+  "homepage": "https://github.com/Rubemjdev/Projeto_Blog_Linux#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
